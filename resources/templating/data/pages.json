@@ -1,0 +1,19 @@
+{
+	"pages": [
+		{
+			"filename": "index",
+			"title": "foo testing",
+			"description": "This is foo text and more."
+		},
+		{
+			"filename": "test",
+			"title": "bar",
+			"description": "This is bar."
+		},
+		{
+			"filename": "last",
+			"title": "baz",
+			"description": "This is baz."
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "version": "0.1.0",
+    "dependencies": {
+        "pg-components": "~0.2.2"
+    },
+    "name": "assemble json2"
+}

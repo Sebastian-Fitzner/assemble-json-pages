@@ -1,0 +1,50 @@
+{
+	"name": "assemble-json2",
+	"description": "Prototype",
+	"version": "0.1.0",
+	"author": {
+		"name": "seb",
+		"email": "",
+		"url": "http://github.com/seb/"
+	},
+	"engines": {
+		"node": ">=0.12.0"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"assemble": "~0.4.42",
+		"lodash" : "*",
+		"path" : "*",
+		"gray-matter": "*",
+		"handlebars-helper-autolink": "^0.1.1",
+		"grunt": "~0.4.5",
+		"grunt-sass": "~0.18.0",
+		"grunt-sass-globber": "^2.0.0",
+		"grunt-newer": "~0.8.0", 
+		"grunt-browser-sync": "~1.5.3",
+		"jit-grunt": "^0.9.0",
+		"load-grunt-configs": "~0.4.1",
+		"grunt-sync": "~0.2.0",
+		"grunt-htmlhint": "~0.4.0",
+		"grunt-contrib-htmlmin": "~0.3.0",
+		"grunt-concurrent": "~0.4.2",
+		"grunt-jsbeautifier": "~0.2.6",
+		"grunt-contrib-cssmin": "~0.11.0",
+		"grunt-contrib-clean": "~0.6.0",
+		"grunt-contrib-connect": "~0.8.0",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-contrib-jshint": "~0.8.0",
+		"time-grunt": "*"
+	},
+	"licenses": [
+	{
+		"type": "MIT",
+		"url": "https://github.com/seb/assemble-json2/blob/master/LICENSE-MIT"
+	}] ,
+	"keywords": [
+		"handlebars-helper-autolink"
+	]
+}
