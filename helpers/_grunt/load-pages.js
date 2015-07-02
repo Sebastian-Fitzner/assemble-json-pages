@@ -1,6 +1,6 @@
 module.exports = {
 	options: {
 		datasrc: 'resources/templating/data/pages.json',
-		template: 'resources/templating/pages/index.hbs'
+		template: 'resources/templating/layouts/lyt-details.hbs'
 	}
 };

@@ -99,7 +99,7 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('load-pages', 'Load pages for assemble', function () {
 		var options = this.options();
-		var pages = createPages.createPage(options.datasrc, options.template);
-		grunt.config.set('assemble.pages.options.pages', pages);
+		var pages = createPages.render(options.datasrc, options.template);
+		grunt.config.set('assemble.details.options.pages', pages);
 	});
 };

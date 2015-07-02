@@ -15,10 +15,11 @@
 
 <body class="{{bodyclass}}">
 
-
-	{{page.title}}
-
-	{{> body }}
+	<main class="main">
+		{{#block "main"}}
+			{{> body }}
+		{{/block}}
+	</main>
 
 	<!-- Scripts
 	================================================== -->

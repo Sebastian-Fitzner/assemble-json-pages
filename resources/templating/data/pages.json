@@ -3,7 +3,8 @@
 		{
 			"filename": "index",
 			"title": "foo testing",
-			"description": "This is foo text and more."
+			"description": "This is foo text and more.",
+			"rteMd": "resources/templating/data/markdown/text.md"
 		},
 		{
 			"filename": "test",
